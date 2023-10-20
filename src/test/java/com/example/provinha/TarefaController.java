@@ -42,7 +42,7 @@ public class TarefaController {
 
     @DeleteMapping("/{id}")
     public void removerTarefa(@PathVariable int id) {
-        tarefaService.removerTarefa(id);
+        tarefaService.removerTarefa(id):
     }
 }
 
